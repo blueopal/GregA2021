@@ -5,22 +5,23 @@ const Page = require('./page');
  */
 class DandDPage extends Page {
 
-    // define selectors using getter methods
+    //define selectors using get
     get headerText () { return $('//*[@id="content"]/div/h3') };
     get boxA () {return $('//*[@id="column-a"]') };
     get boxB () {return $('//*[@id="column-b"]') };
 
-    // define a method to interact with each element
+    //define methods for page objects
     // click the header
     clickHeader() {
         this.headerText.click();
     }
-    // drag and drop from A to B using the WDIO method
+    // drag and drop from A to B
     dragAtoB() {
-        let target = this.boxB;
-        this.boxA.dragAndDrop(target)
+        let target1 = this.boxB;
+        // use the WDIO built-in method
+        this.boxA.dragAndDrop(target1);
     }
-     // Added a parameter for URL in the class 'page.js'
+    // open the browser to base URL + section
     open () {
         return super.open('https://the-internet.herokuapp.com/','drag_and_drop');
     }
