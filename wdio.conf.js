@@ -17,13 +17,8 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        // CME Prod Servers Health Check:
-        './test/specs/CMEapp*.spec.js'
-        /* generic web tests:
-        	'./test/specs/basic.js',
-        	'./test/specs/blueopal.spec.js',
-        	'./test/specs/example.e2e.js'
-        */
+        // herokuapp Drag and Drop:
+        './test/specs/hero_dand.spec.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -114,12 +109,6 @@ exports.config = {
     // commands. Instead, they hook themselves up into the test process.
     services: [
         'chromedriver',
-    /*    ['winappdriver', {
-            logPath : './WAPlogs',
-            command : 'C:\\Program Files (x86)\\Windows Application Driver\\WinAppDriver.exe', // use local version
-            args: ['127.0.0.1', '4723/wd/hub']
-        }],
-    */
     ],
     
     // Framework you want to run your specs with.
@@ -160,12 +149,6 @@ exports.config = {
         		return `results-${options.cid}.${options.capabilities}.json`
     		}
   		}],
-        // generates event-based .log files:
-        //['timeline', { 
-        //    outputDir: './timeline', 
-        //}]
-        // generates a very concise summary in stdout:
-        //'concise'
     ],
     //
     // Options to be passed to Mocha.
