@@ -1,14 +1,10 @@
 {
   "name": "WDIO6",
   "version": "1.0.0",
-  "description": "Automation for FMB web and Windows applications",
+  "description": "Automation for Greg A",
   "main": "index.js",
   "scripts": {
-    "CMEtest": "wdio wdio.test.conf.js",
-    "prettier": "prettier --write --loglevel warn \"**/**/*.ts\"",
-    "test": "wdio wdio.conf.js",
-    "wtest": "wdio wwdio.conf.js",
-    "ytest": "wdio ywdio.conf.js"
+    "test": "wdio wdio.conf.js"
   },
   "keywords": [
     "CME",
@@ -30,7 +26,7 @@
     "braces": "^2.3.1",
     "bufferutil": "^4.0.1",
     "chai": "^4.2.0",
-    "chromedriver": "^94.0.0",
+    "chromedriver": "^95.0.0",
     "debug": "^4.3.1",
     "nodemailer": "^6.4.16",
     "resolve-url": "^0.2.1",
