@@ -18,6 +18,10 @@ describe('herokuapp - Drag and Drop landing page', () => {
     it('should drag box A to box B using the WDIO built-in method', () => {
         DandDPage.dragAtoB();
     });
+    it('should click the header text on the page once more', () => {
+        // use a method from the extended class to interact with an element
+        DandDPage.clickHeader();
+    });
 
 
 
