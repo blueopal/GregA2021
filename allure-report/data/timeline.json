@@ -1,0 +1,419 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-4",
+    "children" : [ {
+      "name" : "Verify that the CME login page has inputs for Username and Password. ",
+      "uid" : "25096ecf0080290a",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863458810,
+        "stop" : 1632863479421,
+        "duration" : 20611
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Verify the Bad Login dialog exists and click the OK button. ",
+      "uid" : "1699510fe10c4bc2",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863499629,
+        "stop" : 1632863519781,
+        "duration" : 20152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Open the CME login page. ",
+      "uid" : "bf4e4cbde2299c12",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632863455021,
+        "stop" : 1632863458809,
+        "duration" : 3788
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Verify that the login page is redisplayed. ",
+      "uid" : "e4fd5fda18bc5d24",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863519782,
+        "stop" : 1632863539931,
+        "duration" : 20149
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Attempt Login to the CME application using invalid credentials (negative test). ",
+      "uid" : "1c0c453c95060131",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632863479421,
+        "stop" : 1632863499629,
+        "duration" : 20208
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    } ],
+    "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
+  }, {
+    "name" : "0-5",
+    "children" : [ {
+      "name" : "Verify that the login page is redisplayed. ",
+      "uid" : "62671113a3448486",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863519769,
+        "stop" : 1632863539947,
+        "duration" : 20178
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Attempt Login to the CME application using invalid credentials (negative test). ",
+      "uid" : "13eee302dd3d295b",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632863479341,
+        "stop" : 1632863499591,
+        "duration" : 20250
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Verify that the CME login page has inputs for Username and Password. ",
+      "uid" : "7bd80fdbdf78bf46",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863458566,
+        "stop" : 1632863479340,
+        "duration" : 20774
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Verify the Bad Login dialog exists and click the OK button. ",
+      "uid" : "a761baba345a386d",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863499591,
+        "stop" : 1632863519769,
+        "duration" : 20178
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Open the CME login page. ",
+      "uid" : "82b5813852e41b27",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632863455111,
+        "stop" : 1632863458565,
+        "duration" : 3454
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    } ],
+    "uid" : "6ea253441b78cd38797e932a74777a9c"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Open the CME login page. ",
+      "uid" : "b16cd2b7b6587b80",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632863455688,
+        "stop" : 1632863458624,
+        "duration" : 2936
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Attempt Login to the CME application using invalid credentials (negative test). ",
+      "uid" : "8bac8ecb35d6c0b0",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632863479393,
+        "stop" : 1632863499595,
+        "duration" : 20202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Verify that the login page is redisplayed. ",
+      "uid" : "a9d8c547574c18e",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863519772,
+        "stop" : 1632863539941,
+        "duration" : 20169
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Verify that the CME login page has inputs for Username and Password. ",
+      "uid" : "fcdd2a08c8267e04",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863458625,
+        "stop" : 1632863479392,
+        "duration" : 20767
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Verify the Bad Login dialog exists and click the OK button. ",
+      "uid" : "d453811bfdb2584d",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863499595,
+        "stop" : 1632863519771,
+        "duration" : 20176
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "Attempt Login to the CME application using invalid credentials (negative test). ",
+      "uid" : "1ae6da03bf7be8c1",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632863479591,
+        "stop" : 1632863499840,
+        "duration" : 20249
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Verify the Bad Login dialog exists and click the OK button. ",
+      "uid" : "d2007e8dd9a7ace4",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863499840,
+        "stop" : 1632863519961,
+        "duration" : 20121
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Open the CME login page. ",
+      "uid" : "d290f8515c38e4e7",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632863455683,
+        "stop" : 1632863459372,
+        "duration" : 3689
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Verify that the CME login page has inputs for Username and Password. ",
+      "uid" : "77e032a8750e8053",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863459373,
+        "stop" : 1632863479590,
+        "duration" : 20217
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Verify that the login page is redisplayed. ",
+      "uid" : "abb4d1b70ef176c1",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863519961,
+        "stop" : 1632863540131,
+        "duration" : 20170
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    } ],
+    "uid" : "b755a79e149728f67460aea38b0710e0"
+  }, {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Open the CME login page. ",
+      "uid" : "a28695d63848c5c8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632863455683,
+        "stop" : 1632863458694,
+        "duration" : 3011
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Attempt Login to the CME application using invalid credentials (negative test). ",
+      "uid" : "56a01903ad6f303a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632863479538,
+        "stop" : 1632863499692,
+        "duration" : 20154
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Verify that the CME login page has inputs for Username and Password. ",
+      "uid" : "8cc0a4834f1a4d41",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863458696,
+        "stop" : 1632863479538,
+        "duration" : 20842
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Verify the Bad Login dialog exists and click the OK button. ",
+      "uid" : "d7ffafaef747bc25",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863499692,
+        "stop" : 1632863519844,
+        "duration" : 20152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Verify that the login page is redisplayed. ",
+      "uid" : "23fc9dc487bd836b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863519845,
+        "stop" : 1632863540000,
+        "duration" : 20155
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "Verify that the login page is redisplayed. ",
+      "uid" : "245271373f98248f",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863520082,
+        "stop" : 1632863540263,
+        "duration" : 20181
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Verify the Bad Login dialog exists and click the OK button. ",
+      "uid" : "295920bc31a8adfb",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863499938,
+        "stop" : 1632863520082,
+        "duration" : 20144
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Attempt Login to the CME application using invalid credentials (negative test). ",
+      "uid" : "4ca1d8117b71fb73",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632863479733,
+        "stop" : 1632863499937,
+        "duration" : 20204
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Open the CME login page. ",
+      "uid" : "1bfa448eb71c9ad7",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632863455211,
+        "stop" : 1632863458963,
+        "duration" : 3752
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "Verify that the CME login page has inputs for Username and Password. ",
+      "uid" : "4b10b715eab48d5b",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632863458965,
+        "stop" : 1632863479732,
+        "duration" : 20767
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  } ]
+}
