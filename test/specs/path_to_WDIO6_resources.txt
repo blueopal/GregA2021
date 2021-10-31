@@ -1,0 +1,26 @@
+/home/blueopal/WDIO6
+
+/home/blueopal/WDIO6/allure-results
+
+
+runTests_WDIO6.sh
+
+
+For the qTest Agent:
+cd /home/blueopal/WDIO6/allure-results/
+mv *.xml ../AllureARC/
+mv *.log ../AllureARC
+mv *.png ../AllureARC/
+mv *.json ../AllureARC
+cd /home/blueopal/WDIO6/
+
+Working directory:
+/home/blueopal/WDIO6/
+
+Shell script to run:
+./runTests_WDIO6.sh
+
+
+Path to results:
+/home/blueopal/WDIO6/allure-results/
+
