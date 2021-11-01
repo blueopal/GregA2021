@@ -18,7 +18,9 @@ exports.config = {
     //
     specs: [
         // herokuapp Drag and Drop:
-        './test/specs/hero_dand.spec.js'
+        './test/specs/hero_dand.spec.js' //,
+        // herokuapp File Uploader:    
+//        './test/specs/hero_fileupld.spec.js'
     ],
     // Patterns to exclude.
     exclude: [
